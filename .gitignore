@@ -1,0 +1,27 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Переменные окружения
+.env
+.env
+
+# Логи
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Тестовые и временные файлы
+.pytest_cache/
+.coverage
+
+# Системные файлы
+.DS_Store
+Thumbs.db

@@ -1,0 +1,48 @@
+/* Общий фон приложения */
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Заголовок таблицы */
+
+.table thead th {
+    font-weight: 600;
+}
+
+/* Карточки */
+
+.card {
+    border-radius: 12px;
+}
+
+/* Кнопка добавления */
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Иконки действий */
+
+.btn-outline-primary,
+.btn-outline-danger {
+    width: 38px;
+}
+
+/* Поле поиска */
+
+#searchInput {
+    border-radius: 10px;
+}
+
+/* Анимация строк */
+
+.table tbody tr {
+    transition: 0.2s;
+}
+
+.table tbody tr:hover {
+    transform: scale(1.002);
+}
